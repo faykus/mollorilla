@@ -1,0 +1,56 @@
+html {
+  background-color: #002330;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffc0;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 875px;
+}
+
+.full {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 25px;
+}
+
+/* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+.promo {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.promo iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.social {
+  text-align: center;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social img {
+  width: 50px;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 750px) {
+  .row {
+    display: block;
+  }
