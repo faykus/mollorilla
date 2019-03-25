@@ -5,8 +5,23 @@ html {
 }
 
 body {
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 875px;
+}
+
+.banner {
+  position: fixed;
+  display: block;
+  top: 0; left: 0; right: 0;
+  background-color: rgba(4, 19, 26, 0.9);
+  color: #ffffc0;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.banner:hover {
+  color: #87697f;
 }
 
 .full {
